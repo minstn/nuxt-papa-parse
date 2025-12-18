@@ -21,9 +21,6 @@ export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: "nuxt-papa-parse",
     configKey: "papaparse",
-    compatibility: {
-      nuxt: "^3.0.0-rc.9",
-    },
   },
   // Default configuration options of the Nuxt module
   defaults: {
